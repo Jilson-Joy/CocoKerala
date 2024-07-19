@@ -169,23 +169,29 @@ function App() {
                 <p style={{ margin: '5px 0', fontSize: '10px' }}>Website: www.cocokerala.com</p>
               </div>
 
-              <div className="col right-font" id="right-font" style={{ width: '55%', marginTop: '25px', marginLeft:'30px', textAlign: 'left' }}>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Mumbai: +91 9048200085</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Kolkata: +91 9048299978</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Delhi: +91 9048200086</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Surat: +91 9048200025</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Pune: +91 9048200084</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Karnataka & Tamilnadu: +91 8714615177</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>MP & Chhattisgarh: +91 8714627900</p>
-              </div>
-
-              <div className="col right-font" id="right-font" style={{ width: '40%', marginTop: '25px', textAlign: 'right' }}>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Ahmedabad: +91 9048200072</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Hyderabad: +91 8714612103</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Lucknow: +91 8714669774</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Rajkot: +91 8714669771</p>
-                <p style={{ margin: '2px 0', fontSize: '8px' }}>Nagpur: +91 9048200073</p>
-              </div>
+             <div style={{display:'flex', flexDirection:'column', width:'100%'}}>
+               <div style={{display:'flex',width: '100%',}}>
+                  <div className="col right-font" id="right-font" style={{ width: '55%', marginTop: '25px', marginLeft:'30px', textAlign: 'left' }}>
+                    <p style={{ margin: '2px 0', fontSize: '10px'}}>Mumbai: +91 9048200085</p>
+                    <p style={{ margin: '2px 0', fontSize: '10px'}}>Kolkata: +91 9048299978</p>
+                    <p style={{ margin: '2px 0', fontSize: '10px'}}>Delhi: +91 9048200086</p>
+                    <p style={{ margin: '2px 0', fontSize: '10px'}}>Surat: +91 9048200025</p>
+                    <p style={{ margin: '2px 0', fontSize: '10px'}}>Pune: +91 9048200084</p>
+                  </div>
+    
+                  <div className="col right-font" id="right-font" style={{ width: '55%', marginTop: '25px', textAlign: 'right' }}>
+                    <p style={{ margin: '2px 0', fontSize: '10px'}}>Ahmedabad:+919048200072</p>
+                    <p style={{ margin: '2px 0', fontSize: '10px'}}>Hyderabad:+918714612103</p>
+                    <p style={{ margin: '2px 0', fontSize: '10px'}}>Lucknow:+918714669774</p>
+                    <p style={{ margin: '2px 0', fontSize: '10px'}}>Rajkot:+918714669771</p>
+                    <p style={{ margin: '2px 0', fontSize: '10px'}}>Nagpur:+919048200073</p>
+                  </div>
+               </div>
+               <div  style={{textAlign:'left',marginLeft:'30px'}}>
+                 <p style={{ margin: '2px 0', fontSize: '10px'}}>Karnataka & Tamilnadu: +91 8714615177</p>
+                <p style={{ margin: '2px 0', fontSize: '10px'}}>MP & Chhattisgarh: +91 8714627900</p>
+               </div>
+             </div>
             </div>
           </section>
 
